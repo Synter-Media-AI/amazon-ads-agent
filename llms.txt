@@ -1,0 +1,21 @@
+# Amazon Ads MCP Starter Kit
+
+> Amazon Sponsored Products, Brands, and Display
+
+This repository provides pre-configured MCP (Model Context Protocol) configuration files 
+for managing Amazon Ads with AI agents in Amp, Cursor, VS Code, and Claude Desktop.
+
+The MCP server is hosted at mcp.syntermedia.ai — no installation required.
+
+## Quick Start
+1. Get API key: https://syntermedia.ai/developer
+2. Set SYNTER_API_KEY environment variable
+3. Open this repo in your AI editor
+4. Start chatting with your agent
+
+## Documentation
+- https://syntermedia.ai/manual
+- https://github.com/Synter-Media-AI/mcp-server
+
+## Available Tools
+140+ tools for campaign management, analytics, creative generation, audience sync, and conversion tracking across Google, Meta, LinkedIn, Reddit, TikTok, X, Microsoft, Amazon, Spotify, and The Trade Desk.

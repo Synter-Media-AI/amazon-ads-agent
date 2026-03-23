@@ -1,0 +1,12 @@
+{
+  "$schema": "https://ampcode.com/schemas/mcp.json",
+  "mcpServers": {
+    "synter-ads": {
+      "type": "http",
+      "url": "https://mcp.syntermedia.ai",
+      "headers": {
+        "X-Synter-Key": "${SYNTER_API_KEY}"
+      }
+    }
+  }
+}

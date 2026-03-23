@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "synter-ads": {
+      "command": "npx",
+      "args": ["-y", "@synterai/mcp-server"],
+      "env": {
+        "SYNTER_API_KEY": "syn_your_api_key_here"
+      }
+    }
+  }
+}
