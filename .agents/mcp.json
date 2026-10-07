@@ -3,7 +3,7 @@
   "mcpServers": {
     "synter-ads": {
       "type": "http",
-      "url": "https://mcp.syntermedia.ai",
+      "url": "https://mcp.synterai.com",
       "headers": {
         "X-Synter-Key": "${SYNTER_API_KEY}"
       }

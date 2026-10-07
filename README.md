@@ -1,6 +1,6 @@
 # Amazon Ads MCP Starter Kit — Manage Amazon Advertising with AI
 
-> **This is a recipe repo.** The Synter MCP server itself lives at [Synter-Media-AI/mcp-server](https://github.com/Synter-Media-AI/mcp-server): 19 ad platforms, campaign creation on 14, one-click install in Cursor, Claude, ChatGPT, and VS Code. Issues, releases, and ⭐ go there.
+> **This is a recipe repo.** The Synter MCP server itself lives at [Synter-Media-AI/mcp-server](https://github.com/Synter-Media-AI/mcp-server): create, launch, and optimize campaigns across 16 ad platforms, with one-click install in Cursor, Claude, ChatGPT, and VS Code. Issues, releases, and ⭐ go there.
 
 
 [![MCP Compatible](https://img.shields.io/badge/MCP-compatible-blue)](https://modelcontextprotocol.io)
@@ -8,6 +8,29 @@
 [![Platform: Amazon Ads](https://img.shields.io/badge/Platform-Amazon%20Ads-FF9900)](https://advertising.amazon.com)
 
 **Turn your AI agent into an Amazon advertising expert.** Open this repo in Amp, Cursor, or VS Code and manage Sponsored Products, Sponsored Brands, and Sponsored Display campaigns — optimize ACOS, discover high-converting keywords, and scale your Amazon business.
+
+---
+
+## Install
+
+[![Add to Cursor](https://cursor.com/deeplink/mcp-install-dark.svg)](https://cursor.com/en/install-mcp?name=synter-ads&config=eyJ1cmwiOiJodHRwczovL21jcC5zeW50ZXJhaS5jb20ifQ==)
+[![Install in VS Code](https://img.shields.io/badge/VS_Code-Install_Synter-0098FF?logo=visualstudiocode&logoColor=white)](https://insiders.vscode.dev/redirect/mcp/install?name=synter-ads&config=%7B%22type%22%3A%22http%22%2C%22url%22%3A%22https%3A%2F%2Fmcp.synterai.com%22%7D)
+
+- **Cursor / VS Code:** click a button above, or open this repo — it ships `.cursor/mcp.json` and `.vscode/mcp.json`.
+- **Claude Code:** this repo ships `.mcp.json`; or run:
+  ```bash
+  claude mcp add --transport http synter-ads https://mcp.synterai.com
+  ```
+- **Codex:**
+  ```bash
+  codex mcp add synter-ads --url https://mcp.synterai.com
+  codex mcp login synter-ads
+  ```
+- **Claude Desktop:** copy `claude_desktop_config.json` into your Claude config directory (macOS: `~/Library/Application Support/Claude/`, Windows: `%APPDATA%\Claude\`) and replace the placeholder API key.
+
+Your client opens Synter sign-in in the browser (OAuth). New here? Create an account at https://synterai.com/sign-up. Headless/CI fallback: send `X-Synter-Key` with a key from https://synterai.com/developer.
+
+The MCP server itself: https://github.com/Synter-Media-AI/mcp-server
 
 ---
 
@@ -20,27 +43,6 @@ But Amazon's advertising platform is complex. Sponsored Products has auto, manua
 An AI agent makes managing this complexity manageable. It understands Amazon's bid mechanics, discovers profitable keywords from search term reports, and optimizes ACOS across hundreds of products.
 
 **Best for:** Amazon sellers (FBA and FBM), ecommerce brands, private label products, agencies managing Amazon accounts.
-
----
-
-## Quick Start (30 Seconds)
-
-### Amp / Cursor / VS Code (Copilot)
-
-1. **Get a free API key** at [syntermedia.ai/developer](https://syntermedia.ai/developer)
-2. **Set the key:**
-   ```bash
-   export SYNTER_API_KEY=syn_your_key_here
-   ```
-3. **Open this repo** in your editor
-4. **Start chatting** — MCP tools are pre-configured in `.mcp.json`
-
-### Claude Desktop
-
-Copy `claude_desktop_config.json` to your Claude config directory and replace the API key:
-
-- **macOS:** `~/Library/Application Support/Claude/claude_desktop_config.json`
-- **Windows:** `%APPDATA%\Claude\claude_desktop_config.json`
 
 ---
 
@@ -250,4 +252,4 @@ Yes, if your Amazon Advertising account has access to international marketplaces
 
 MIT — see [LICENSE](LICENSE) for details.
 
-Built by [Synter](https://syntermedia.ai) · [Get API Key](https://syntermedia.ai/developer) · [Documentation](https://syntermedia.ai/docs)
+Built by [Synter](https://synterai.com) · [Get API Key](https://synterai.com/developer) · [Documentation](https://synterai.com/docs)
