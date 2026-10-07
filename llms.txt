@@ -5,17 +5,17 @@
 This repository provides pre-configured MCP (Model Context Protocol) configuration files 
 for managing Amazon Ads with AI agents in Amp, Cursor, VS Code, and Claude Desktop.
 
-The MCP server is hosted at mcp.syntermedia.ai — no installation required.
+The MCP server is hosted at https://mcp.synterai.com (remote HTTP, OAuth sign-in) — no installation required.
 
 ## Quick Start
-1. Get API key: https://syntermedia.ai/developer
-2. Set SYNTER_API_KEY environment variable
-3. Open this repo in your AI editor
-4. Start chatting with your agent
+1. Open this repo in your AI editor (ships .mcp.json, .cursor/mcp.json, .vscode/mcp.json), or add https://mcp.synterai.com to your MCP client
+2. Sign in to Synter in the browser when prompted (OAuth). New here? https://synterai.com/sign-up
+3. Start chatting with your agent
+Headless/CI fallback: send X-Synter-Key with an API key from https://synterai.com/developer
 
 ## Documentation
-- https://syntermedia.ai/manual
+- https://synterai.com/manual
 - https://github.com/Synter-Media-AI/mcp-server
 
 ## Available Tools
-140+ tools for campaign management, analytics, creative generation, audience sync, and conversion tracking across Google, Meta, LinkedIn, Reddit, TikTok, X, Microsoft, Amazon, Spotify, and The Trade Desk.
+Tools for campaign management, analytics, creative generation, audience sync, and conversion tracking across Google, Meta, LinkedIn, Reddit, TikTok, X, Microsoft, Amazon, Spotify, and The Trade Desk.

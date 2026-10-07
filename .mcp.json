@@ -1,6 +1,7 @@
 {
   "mcpServers": {
     "synter-ads": {
+      "type": "http",
       "url": "https://mcp.synterai.com"
     }
   }
